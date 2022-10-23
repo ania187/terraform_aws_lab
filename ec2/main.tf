@@ -5,7 +5,7 @@ resource "aws_vpc" "imtiaz-vpc1" {
   }
 }
 
-resource "aws_subnet" "in_secondary_cidr" {
+resource "aws_subnet" "in_secondary_cidrx" {
   vpc_id     = aws_vpc.imtiaz-vpc.id
   cidr_block = "10.2.1.0/24"
   tags = {
